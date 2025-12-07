@@ -1,28 +1,51 @@
-# My Google Colab Project
+# Smart Fan Brand Analysis
 
-This project is developed in **Google Colab** and can be run on any system directly through Colab.  
+This project analyzes social media mentions, engagement, and sentiment for popular fan brands. It calculates **mentions share (M_share)**, **engagement share (E_share)**, and **Share of Voice (SoV_score)** to compare brand visibility and performance.
 
-## 🔗 Run in Google Colab
+## Features
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/198QyDN18jDAwYu77W2KqdfRl_rerhnMf?usp=sharing)
+- Collects and analyzes social media mentions for fan brands  
+- Calculates positive sentiment and engagement metrics  
+- Generates comparative Share of Voice (SoV) scores  
+- Displays results in tabular format for easy interpretation  
 
-## 📝 Project Overview
+## Usage
 
-Briefly describe your project here.  
+Click the button below to open the notebook in Google Colab and run the analysis:
 
-## 📂 Project Structure
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/198QyDN18jDAwYu77W2KqdfRl_rerhnMf?usp=sharing))
 
-- `notebook.ipynb` - Main Colab notebook  
-- `data/` - Folder containing required datasets (if any)  
-- `requirements.txt` - Python dependencies (if used)  
+> Replace `YOUR_NOTEBOOK_ID` with your Colab notebook ID.
 
-## ⚙️ How to Use
+## Output Table
 
-1. Click the **Run in Colab** button above.  
-2. Mount Google Drive or upload datasets if prompted.  
-3. Run the notebook cells step by step.  
+| Brand      | Mentions | Positive | Engagement | M_share  | E_share  | SoV_score |
+|------------|----------|----------|------------|----------|----------|-----------|
+| atomberg   | 56       | 6        | 62         | 0.746667 | 0.746988 | 0.746827  |
+| havells    | 11       | 1        | 12         | 0.146667 | 0.144578 | 0.145622  |
+| orient     | 4        | 1        | 5          | 0.053333 | 0.060241 | 0.056787  |
+| crompton   | 3        | 0        | 3          | 0.040000 | 0.036145 | 0.038072  |
+| usha       | 1        | 0        | 1          | 0.013333 | 0.012048 | 0.012691  |
+| luminous   | 0        | 0        | 0          | 0.000000 | 0.000000 | 0.000000  |
+| panasonic  | 0        | 0        | 0          | 0.000000 | 0.000000 | 0.000000  |
 
-## 🛠 Dependencies
+## Output Screenshots
 
-```bash
-pip install numpy pandas matplotlib seaborn scikit-learn
+Place your output screenshots in an `images/` folder and add them here:
+
+![Screenshot 1]("/content/drive/MyDrive/Atomberg_agent/brand_mention.png")
+![Screenshot 2](/content/drive/MyDrive/Atomberg_agent/sov.png)
+
+---
+
+## Installation
+
+This project runs entirely in Google Colab. You don’t need to install anything locally—just open the notebook and run the cells.
+
+## Contributing
+
+Feel free to submit pull requests or raise issues to improve this project.
+
+## License
+
+Specify your license here, e.g., MIT License.
